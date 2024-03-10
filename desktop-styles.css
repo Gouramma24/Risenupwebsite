@@ -1,0 +1,42 @@
+/* mobile wide-screen */
+@media (min-width: 640px) {
+    .section-container {
+        max-width: 640px;
+    }
+}
+
+/* tablets */
+@media (min-width: 768px) {
+    .section-container {
+        max-width: 768px;
+    }
+}
+
+/* laptop */
+@media (min-width: 1024px) {
+    .section-container {
+        max-width: 1024px;
+    }
+    .header-nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .mobile-menu-div {
+        display: none;
+    }
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+    .section-container {
+        max-width: 1280px;
+    }
+}
+
+/* even larget screens (TV, Widescreens) */
+@media (min-width: 1536px) {
+    .section-container {
+        max-width: 1536px;
+    }
+}
