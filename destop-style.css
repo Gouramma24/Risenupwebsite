@@ -18,25 +18,121 @@
     .section-container {
         max-width: 768px;
     }
-    
-        
         .mobile-menu-div  {
             display:flex;
         }
-        
-        
-        
-    
-    
+        .header-cta-btn {
+            min-width: 150px;
+            border-radius: 25px;
+            background-color:rgba(33, 5, 189, 0.76);
+            padding: 0.8rem 2rem;    
+            font-size: 20px;
+            color: white !important;
+            text-align: center;
+        }
+        img{
+            margin:20%;
+        } 
+        .overlapbox{
+            h3
+            {
+                  align-items: center;
+                font-size: 25px;
+            }
+            h1{
+                color: white;
+                align-items: center;
+                font-size: 35px;
+            }
+            p{
+                color:black;
+                font-weight: 400;
+                font-size: 20px;
+               
+            }
+        } 
+        .footertop {
+            margin-top:15%;
+   display: flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   gap:5rem;
+    justify-content: space-around;
+    background-color:black;
+    padding-left: 5rem;
+    padding-right: 12rem;
+    } 
+   .list1{
+    a{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 20px;
+        color:white;
+    }
+    h4{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+   } 
+   .list2{
+    a{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 20px;
+        color:white;
+    }
+    h4{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+   } 
+   .list3{
+    a{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 20px;
+        color:white;
+    }
+    h4{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+   } 
+   .list4{
+    a{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 20px;
+        color:white;
+    }
+    h4{
+        font-size: 20px;
+        color:grey;
+        text-decoration: none;
+    }
+   } 
 }
 
 /* laptop */
 @media (min-width: 1024px) {
     .section-container {
         max-width: 1280px;
-   
     }
-    
     .mobile-menu-div  {
         display: none;
     }
@@ -63,6 +159,86 @@
             margin-right: 1rem;
         }
     }
+    footer{
+        margin-top: 1rem;
+        width: 100%;
+        background-color: black;
+        align-items: center;
+    }
+    .footertop {
+        margin-top:15%;
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: space-around;
+background-color:black;
+padding-left: 5px;
+padding-right: 5px;
+} 
+.list1{
+a{
+    font-size: 20 px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list2{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list3{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list4{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
     
 }
 
@@ -70,9 +246,7 @@
 @media (min-width: 1280px) {
     .section-container {
         max-width: 1280px;
-   
     }
-    
     .mobile-menu-div  {
         display: none;
     }
@@ -106,16 +280,13 @@
 @media (min-width: 1536px) {
     .section-container {
         max-width: 1536px;
-     
     }
-    
     .mobile-menu-div  {
         display: none;
     }
     .header-nav {
         width: fit-content;
         display: flex;
-    
         a {
             display: block;
             text-decoration: none;
