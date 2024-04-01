@@ -1,22 +1,582 @@
-/* mobile wide-screen */
 @media (min-width: 280px) {
     .section-container {
-        max-width: 640px;
+        max-width: 280px;
     }
     
         .mobile-menu-div  {
             display: flex;
         }
+        .mobile-menu-div  {
+            display: flex;
+        }
+        header.main-header{
+            background-color: rgb(235, 232, 232);
+        }
+        .maincontent{
+            background-color: rgb(235, 232, 232);
+           
+            h1{
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 19px;
+                margin-right: 3rem;
+            }
+            .h12{
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 33px !important;
+                margin-right: 2rem;
+            }
+            h3{
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 18px !important;
+            }
+        }
+        .btn{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .learn-btn{
+                min-width: 120px !important;
+                border-radius: 25px;
+                padding: 0.8rem 1rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 4rem;
+                margin-right: 3rem; 
+                font-size: 15px;
+            }
+            .get-btn{
+                min-width: 120px !important;
+                border-radius: 25px;
+               padding: 0.8rem 1rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 4rem;
+                margin-right: 3rem; 
+                font-size: 15px;
+            }
+        }
+
+    } 
+    .ourservices{
+      
+        h1{
+            font-size: 15px !important;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+          
+            font-size: 23px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .service-btn{
+            min-width: 120px !important;
+            border-radius: 25px;
+           padding: 0.8rem 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 3rem;
+            margin-right: 3rem; 
+            font-size: 15px;
+        }
     }
+    .knowourservices{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        .webdevp{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 25px;
+
+            }
+
+        }
+    .digitalmrkt{
+        
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;   
+        }
+    }
+    .ecom{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;
+        }
+    }
+    .seo{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;  
+        }
+    }
+
+    }
+.numberbox{
+    margin-left: 3rem !important;
+    margin-right: 3rem;
+    width: 75%;
+    .one{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .two{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .three{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .four{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+        
+    }
+}
+.pic{
+    p{
+        font-size: 22px;
+    }
+
+.getlink{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    .watvideo{
+        width: 150px;
+        padding: 1rem;
+        min-width: 100px;
+        font-size: 14px;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+    .getstarted{
+        width: 150px;
+        padding: 1rem;
+        min-width: 100px;
+        font-size: 14px;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+}
+}
+.Portfolio{
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.imgoverap{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.overlaptext{
+    padding-top: 3rem;
+   margin-top: 4rem !important;
+}
+.whychoose{
+    h1{
+        font-size: 25px !important;
+        margin-left:1rem !important;
+        margin-right: 1rem !important;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.colorbox{
+.pinkbox{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+}
+.bluebox{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+}
+.orangebox{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.clints-review{
+    .clintstext{
+        text-align: center;
+        h1{
+            font-size: 15px !important;
+        }
+        h2{
+            font-size: 25px !important;
+        }
+        .img3{
+
+        }
+
+    }
+   
+
+}
+
+
+    .clienttext2{
+        h1{
+            font-size: 21px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        h2{
+            font-size: 20px;
+        }
+  
+        h3{
+            font-size: 20px;
+        }
+        h4{
+           font-size: 20px;
+        }
+
+} 
+.certificate{
+    .certificatetext{
+        margin-top: 2rem;
+        h1{
+            font-size: 15px !important;
+        }
+        h2{
+            font-size: 20px !important;
+        }
+    }
+}  
+
+ 
+
     
     
     
+/* mobile wide-screen */
+@media (min-width: 390px) {
+    .section-container {
+        max-width: 390px;
+    }
+    header.main-header{
+        background-color: rgb(235, 232, 232);
+    }
+    .mobile-menu-div  {
+            display: flex;
+        }
+        .maincontent{
+            background-color: rgb(235, 232, 232);
+            h1{
+                font-size: 15px;
+            }
+            .h12{
+                font-size: 36px !important;
+            }
+            h3{
+                font-size: 18px !important;
+            }
+        }
+        .btn{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            .learn-btn{
+                min-width: 150px;
+                border-radius: 25px;
+                padding: 0.8rem 0.25rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+                font-size: 20px;
+            }
+            .get-btn{
+                min-width: 150px;
+                border-radius: 25px;
+                padding: 0.8rem 0.25rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem; 
+                font-size: 20px;
+            }
+        }
+
+    } 
+    .ourservices{
+      
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+          
+            font-size: 23px;
+        }
+        .service-btn{
+            font-size: 20px;
+        }
+    }
+    .knowourservices{
+        .webdevp{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 25px;
+
+            }
+
+        }
+    .digitalmrkt{
+        
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;   
+        }
+    }
+    .ecom{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;
+        }
+    }
+    .seo{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;  
+        }
+    }
+
+    }
+.numberbox{
+    .one{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .two{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .three{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+
+    }
+    .four{
+        h1{
+            font-size: 60px !important;
+        }
+        h3{
+            font-size: 15px;
+        }
+        
+    }
+}
+.pic{
+    p{
+        font-size: 22px;
+    }
+}
+.getlink{display: flex;
+    flex-direction: row;
+    .watvideo{
+        padding: 1rem ;
+        min-width: 100px;
+        font-size: 18px;
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+    .getstarted{
+        padding: 0.4rem 1rem;
+        min-width: 100px;
+        font-size: 18px;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+}
+.Portfolio{
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.imgoverap{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.overlaptext{
+    padding-top: 3rem;
+   margin-top: 4rem !important;
+}
+.whychoose{
+    h1{
+        font-size: 25px !important;
+        margin-left:1rem !important;
+        margin-right: 1rem !important;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.colorbox{
+.pinkbox
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.bluebox{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+}
+.orangebox{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.clints-review{
+    .clintstext{
+        text-align: center;
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 35px;
+        }
+
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+}
+
+
+    .clienttext2{
+        h1{
+            font-size: 21px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        h2{
+            font-size: 20px;
+        }
+  
+        h3{
+            font-size: 20px;
+        }
+        h4{
+           font-size: 20px;
+        }
+
+} 
+.certificate{
+    .certificatetext{
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 25px;
+        }
+    }
+}  
 
 
 /* tablets */
 @media (min-width: 768px) {
     .section-container {
-        max-width: 768px;
+        max-width: 1024px;
     }
         .mobile-menu-div  {
             display:flex;
@@ -30,27 +590,307 @@
             color: white !important;
             text-align: center;
         }
-        img{
-            margin:20%;
-        } 
-        .overlapbox{
-            h3
-            {
-                  align-items: center;
+        .maincontent{
+            background-color: rgb(235, 232, 232);
+            h1{
+                margin-left: 13rem;
+                margin-right: 8rem;
+                font-size: 20px;
+            }
+            .h12{
+               text-align: center;
+                margin-left: 6rem;
+                margin-right: 5rem;
+                font-size: 49px !important;
+            }
+            h3{
+                text-align: center;
+                margin-left: 8rem;
+                margin-right: 8rem;
                 font-size: 25px;
             }
-            h1{
-                color: white;
-                align-items: center;
-                font-size: 35px;
-            }
-            p{
-                color:black;
-                font-weight: 400;
+        }
+        .btn{ 
+            margin-left: 8rem;
+            margin-right: 8rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            .learn-btn{
+                min-width: 150px;
+                border-radius: 25px;
+                padding: 0.8rem 0.25rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 9rem;
+                margin-right: 0.5rem;
                 font-size: 20px;
-               
+            }
+            .get-btn{
+                min-width: 150px;
+                border-radius: 25px;
+                padding: 0.8rem 0.25rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                margin-left: 0.5rem;
+                margin-right: 3rem; 
+                font-size: 20px;
             }
         } 
+    .ourservices{
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 50px !important;
+        }
+        h3{
+            text-align: center;
+            font-size: 23px;
+            margin-left: 8rem;
+            margin-right: 8rem;
+
+        }
+        .service-btn{
+            font-size: 20px;
+        }
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+        .part2{
+            display: flex;
+            flex-direction: row;
+            .webdevp{
+                margin-left: 3rem;
+                margin-right: 3rem;
+            }
+            .digitalmrkt{
+            margin-left: 4rem;
+            margin-right: 3rem;
+            }
+        }
+        .part3{
+            display: flex;
+            flex-direction: row;
+            .ecom{
+                margin-left: 3rem;
+                margin-right: 3rem;
+            }
+            .seo{
+            margin-left: 4rem;
+            margin-right: 3rem;
+            }
+        }
+    }
+    .numberbox{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+    }
+    .pic{
+      display: none;
+    }
+    .getlink{
+        display: none;
+      }
+    .changedpic{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+        .parg{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           h1{
+            font-size: 25px;
+            margin-left: 4rem;
+            margin-right: 4rem;
+           }
+           h2{
+            text-align: center;
+            font-size: 39px;
+            margin-left: 11rem;
+            margin-right: 11rem;
+
+           }
+           p{
+            text-align: center;
+            font-size: 19px;
+            margin-left: 10rem;
+            margin-right: 10rem;
+            color: grey;
+
+           }
+        .getlink{
+            display: flex;
+            flex-direction: row;
+            margin-left: 6rem;
+            margin-right: 5rem;
+            margin-bottom: 5rem;
+            .watvideo{
+                padding: 1rem;
+                width: 150px;
+                border-radius: 4rem;
+                font-size: 18px;
+            }
+            .getstarted{
+            padding: 0.4rem 1rem;
+            width: 150px;
+            border-radius: 4rem;
+            font-size: 18px;
+            }
+        }
+    }
+        .setimg{
+            display: flex;
+            flex-direction: column;
+            .backgroundimg{
+                width: 90%;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                border-radius: 3rem;
+            }
+            .frontimg{
+                width: 72%;
+                margin-left: 12rem;
+                margin-right: 2rem;
+                margin-top: -28rem;
+                border-radius: 2rem;
+
+
+            }
+    
+
+        }
+    }
+
+.cngoverlap{
+    display: none;
+}
+.Portfolio{
+    margin-top: 5rem;
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.imgoverap{
+    .overlaptext{
+        padding-bottom: 8rem !important;
+        margin-top: 10rem !important;
+        padding-right: 8rem !important;
+        margin-left: 5rem !important;
+        padding-top: 4rem;
+    }
+
+}
+.whychoose{
+    h1{
+        font-size: 33px !important;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.colorboxes{
+    display: flex;
+    flex-direction: row !important;
+.pinkbox{
+    margin-left: 1rem;
+        margin-right: 1rem;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.bluebox{
+    margin-left: 1rem;
+        margin-right: 1rem;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+}
+.orangebox{
+    margin-left: 1rem;
+        margin-right: 1rem;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+}
+.clints-review{
+    .clintstext{
+        text-align: center;
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 35px;
+        }
+
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+}
+
+
+    .clienttext2{
+        h1{
+            font-size: 30px;
+            margin-left: 10rem;
+            margin-right: 10rem;
+        }
+        h2{
+            font-size: 20px;
+            margin-left: 8rem;
+            margin-right: 8rem;
+        }
+  
+        h3{
+            font-size: 20px;
+        }
+        h4{
+           font-size: 20px;
+           margin-left: 2rem;
+           margin-right: 2rem;
+        }
+
+} 
+.certificate{
+    .certificatetext{
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 35px;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+    }
+} 
+      
+        
         .footertop {
             margin-top:15%;
    display: flex;
@@ -159,6 +999,313 @@
             margin-right: 1rem;
         }
     }
+    .maincontent{
+        background-color: rgb(235, 232, 232);
+        h1{
+            margin-left: 20rem !important;
+            margin-right: 8rem !important;
+            font-size: 20px;
+        }
+        .h12{
+           text-align: center;
+            font-size: 49px !important;
+            margin-left: 13rem !important;
+            margin-right: 13rem !important;
+        }
+        h3{
+            text-align: center;
+            margin-left: 15rem !important;
+            margin-right: 13rem !important;
+            font-size: 25px;
+        }
+    }
+    .btn{ 
+        margin-left: 8rem;
+        margin-right: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        .learn-btn{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 0.8rem 0.25rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 14rem;
+            margin-right: 0.5rem;
+            font-size: 20px;
+        }
+        .get-btn{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 0.8rem 0.25rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 2rem; 
+            font-size: 20px;
+        }
+    } 
+.ourservices{
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 50px !important;
+    }
+    h3{
+        text-align: center;
+        font-size: 23px;
+        margin-left: 16rem !important;
+        margin-right: 16rem !important;
+
+    }
+    .service-btn{
+        font-size: 20px;
+    }
+}
+
+.knowourservices{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .knowmore-1{
+        display: flex;
+        flex-direction: row;
+    .webdevp{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 25px;
+
+        }
+    }
+.digitalmrkt{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 23px;   
+    }
+}
+}
+.knowmore-2{
+    display: flex;
+    flex-direction: row;
+.ecom{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+
+    }
+
+}
+.seo{
+margin-left: 2rem;
+margin-right: 1rem;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 23px;   
+}
+}
+}
+}
+.numberbox{
+    display: flex;
+    flex-direction: row;
+   width: 90%;
+}
+.changedpic{
+    display: flex;
+    flex-direction: column;
+.parg{
+    h1{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: 25px;
+    }
+    h2{
+        font-size: 39px !important;
+        margin-left: 20rem !important;
+        margin-right: 20rem !important;
+    }
+    p{
+        margin-top: 5rem;
+        font-size: 20px !important; 
+        margin-left: 18rem !important;
+        margin-right: 18rem !important;
+    }
+    .getlink{
+        flex-direction: row;
+        .watvideo{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 10rem;
+            margin-right: 0.75rem;
+            font-size: 20px;
+           
+        }
+        .getstarted{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 10rem !important;
+            font-size: 20px;
+        }
+        }
+        }
+    .setimg{
+    .backgroundimg{
+        display: flex;
+        width: 90%;
+        border-radius: 20px;
+    }
+    .frontimg{
+        margin-top: -41rem ;
+        margin-left: 13rem !important;
+        margin-left: 10rem;
+        width: 79%;
+
+
+    }
+}
+}
+.Portfolio{
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+}
+}
+.imgoverap{
+    .img2{
+        margin-right: 2px;
+    }
+    .overlaptext{
+        font-size: 30px !important;
+        margin-top: 15rem;
+        margin-left: 5rem !important;
+        padding-bottom: 10rem;
+        padding-top: 5rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+.whychoose{
+    margin-bottom: 6rem;
+h1{
+    font-size: 33px !important;
+}
+p{
+    font-size: 20px;
+    margin-left: 4rem;
+    margin-right: 10rem;
+}
+}
+.colorboxes{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+.pinkbox{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+}
+.bluebox{
+    margin-left: 1rem !important;
+margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+
+}
+}
+.orangebox{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+}
+}
+.clints-review{
+.clintstext{
+    text-align: center;
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 35px;
+    }
+.img{
+    width: 80%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+}
+
+}
+
+
+.clienttext2{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    h4{
+       font-size: 20px;
+    }
+
+} 
+.certificate{
+.certificatetext{
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 30px !important;
+    }
+}
+}
     footer{
         margin-top: 1rem;
         width: 100%;
@@ -273,6 +1420,436 @@ h4{
             margin-right: 1rem;
         }
     }
+    .maincontent{
+        background-color: rgb(235, 232, 232);
+        h1{
+            margin-left: 20rem !important;
+            margin-right: 8rem !important;
+            font-size: 20px;
+        }
+        .h12{
+           text-align: center;
+            font-size: 49px !important;
+            margin-left: 20rem !important;
+            margin-right: 8rem !important;
+        }
+        h3{
+            text-align: center;
+            margin-left: 15rem !important;
+            margin-right: 13rem !important;
+            font-size: 25px;
+        }
+    }
+    .btn{ 
+        margin-left: 8rem;
+        margin-right: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        .learn-btn{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 0.8rem 0.25rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 12rem;
+            margin-right: 0.5rem;
+            font-size: 20px;
+        }
+        .get-btn{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 0.8rem 0.25rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 3rem; 
+            font-size: 20px;
+        }
+    } 
+    .part1{
+        display: flex;
+        flex-direction: row-reverse;
+      .ourservices{
+    h1{
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    h2{
+        font-size: 50px !important;
+        margin-bottom: 2px;
+    }
+    h3{
+        text-align: center;
+        font-size: 23px;
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+        margin-bottom: 2px;
+
+    }
+    .service-btn{
+        font-size: 20px;
+    }
+}
+
+.knowourservices{
+    .part2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    .webdevp{
+        margin-left: 3rem;
+        margin-right: 4rem;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+
+        }
+    }
+.digitalmrkt{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+}
+}
+    
+.part3{
+    display: flex;
+    flex-direction: row;
+.ecom{
+    margin-left: 3rem;
+    margin-right: 4rem;
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+
+}
+.seo{
+margin-left: 3rem;
+margin-right: 2rem;
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+
+}
+}
+}
+}
+    }
+    
+.numberbox{
+    display: flex;
+    flex-direction: row;
+   width: 90%;
+   margin-left: 4rem !important;
+   margin-right: 2rem !important;
+}
+.changedpic{
+    display: flex;
+    flex-direction: row-reverse;
+.parg{
+    text-align: start;
+    h1{
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
+        font-size: 25px;
+    }
+    h2{
+        font-size: 39px !important;
+        margin-left: 3rem !important;
+        margin-right: 15rem !important;
+    }
+    p{
+        margin-top: 5rem;
+        font-size: 20px !important; 
+        margin-left: 3rem !important;
+        margin-right: 15rem !important;
+    }
+    .getlink{
+        flex-direction: row;
+        .watvideo{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            margin-right: 0.75rem;
+            font-size: 20px;
+           
+        }
+        .getstarted{
+            min-width: 150px;
+            border-radius: 25px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 10rem !important;
+            font-size: 20px;
+        }
+        }
+        }
+    .setimg{
+    .backgroundimg{
+        display: flex;
+        width: 90%;
+        border-radius: 20px;
+    }
+    .frontimg{
+        margin-top: -23rem ;
+        margin-left: 9rem !important;
+        width: 79%;
+
+
+    }
+}
+}
+.Portfolio{
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    }
+    .imgoverap{
+        .img2{
+            margin-right: 2px;
+        }
+        .overlaptext{
+            font-size: 30px !important;
+            margin-top: 20rem;
+            margin-left: 5rem !important;
+            padding-bottom: 5rem;
+            padding-top: 5rem;
+            padding-left: 15rem;
+            padding-right: 15rem;
+        }
+    }
+.whychoose{
+h1{
+    font-size: 33px !important;
+}
+p{
+    font-size: 20px;
+    margin-left: 5rem !important;
+    margin-right: 13rem !important;
+}
+}
+.colorboxes{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 8rem;
+    margin-right: 8rem;
+.pinkbox{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+}
+.bluebox{
+    margin-left: 1rem !important;
+margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+
+}
+}
+.orangebox{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+}
+}
+.clints-review{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+.clintstext{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .img3{
+        width: 45rem;
+       margin-right: 2px;
+       margin-left: 2px;
+    }
+
+}
+}
+
+
+.clienttext2{
+    margin-top: 5rem;
+    padding-left: 4rem !important;
+    padding-right: 2px !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    h1{
+        margin-left: 1px !important;
+    margin-right: 1rem!important;
+        font-size: 40px !important;
+    }
+    h2{
+        margin-left: 1px !important;
+    margin-right: 1rem !important;
+        font-size: 20px !important;
+    }
+.img5{
+    margin-left: 2px;
+        margin-right: 5rem;
+}
+    h3{
+        margin-left: 2px;
+        margin-right: 5rem;
+        font-size: 20px;
+    }
+    h4{
+        margin-left: 2px;
+        margin-right: 5rem;
+       font-size: 20px;
+    }
+
+} 
+.certificate{
+    margin-left: 2rem;
+    margin-right: 2rem;
+.certificatetext{
+    
+    h1{
+        font-size: 25px !important;
+    }
+    h2{
+        margin-left: 1rem !important;
+        font-size: 40px !important;
+    }
+}
+.img6{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    width: 80%;
+     
+ }
+}
+    footer{
+        margin-top: 1rem;
+        width: 100%;
+        background-color: black;
+        align-items: center;
+    }
+    .footertop {
+        margin-top:15%;
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: space-around;
+background-color:black;
+padding-left: 5px;
+padding-right: 5px;
+} 
+.list1{
+a{
+    font-size: 20 px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list2{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list3{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
+.list4{
+a{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    color:white;
+}
+h4{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+}
+} 
     
 }
 
